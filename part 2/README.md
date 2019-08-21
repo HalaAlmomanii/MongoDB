@@ -34,6 +34,7 @@ db.getCollection('res2').find({},{restaurant_id:1, name:1, borough:1 ,"address.z
  
 8. Write a MongoDB query to find the restaurants who achieved a score more than 90.
 
+
  db.getCollection('res2').find({"grades.score":{$gt:90}}) 
 
 9. Write a MongoDB query to find the restaurants that achieved a score, more than 80 but less than 100.
